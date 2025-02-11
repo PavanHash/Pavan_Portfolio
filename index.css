@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: "Faculty Glyphic", serif;
+}
+
+
+/* --------------------------------------------- header styling start ---------------------------------------------- */
+
+header{
+height: 80px;
+/* background-color: aqua;   */
+background-color: black;
+color: rgb(255, 255, 255);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    color: white;   
+    background-color: black;
+    color: rgb(255, 255, 255);
+}   
+
+.nav-logo{
+padding-left: 150px;
+font-size: 15px;
+color: white;
+}
+.nav-logo .logo{
+    font-family: "Lavishly Yours", serif;
+    font-weight: 400;
+    font-style: normal;
+
+     
+}
+
+
+.nav-bar ul{
+    display: flex;
+    gap: 50px;
+    padding-right: 200px;
+    list-style-type: none;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size:17px ;
+    font-weight: 500;
+    color: white;
+
+}
+
+.nav-bar ul li a:hover{
+    color: #6333c2;
+}
+
+/* ------------------------------ Header styling done --------------------- */
+
+
+
+/* ------------------------------------- sec1 sryling start -------------------------------- */
+.sec1{
+    height: 500px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    /* opacity: 0.7; */
+    /* background: radial-gradient(50% 70.31% at 50% 0%, rgba(126, 61, 255, 0.24) 0%, rgba(126, 61, 255, 0) 100%), #0B011D; */
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+/* .sec1 img{
+    z-index: -1;
+} */
+
+.sec1-block1{
+   justify-items: center;
+   padding: 0px 0 60px 0; 
+   
+}
+
+/* ---------- Animation --------------- */
+
+@keyframes moveUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.sec1-block1 h2{
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 600;
+    font-style: normal;  
+    animation: moveUp 1.5s ease-in-out forwards;
+   
+}
+
+.sec1-text{
+    font-size: 40px;
+}
+
+.sec1-block2{
+    justify-items: center;    
+}
+
+.sec1-block2 h3{
+    /* padding: 10px;  */
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 500;
+    font-style: normal;  
+    animation: moveUp 1.5s ease-in-out forwards; 
+
+    
+}
+
+.sec1-block2 h4{
+    /* padding: 10px;  */
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 500;
+    font-style: normal;
+    animation: moveUp 1.5s ease-in-out forwards;
+
+    
+}
+
+/* -------------------------------sec1 styling done -------------------------------- */
+
+
+
+/* ----------------------------------sec2 styling start------------------------------------ */
+
+.sec2{
+    height: 500px;
+    width: auto;
+     /* background-color: aqua;  */
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: radial-gradient(50% 70.31% at 50% 0%, rgba(126, 61, 255, 0.24) 0%, rgba(126, 61, 255, 0) 100%), #0B011D; */
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.sec2-box{
+    height:400px ;
+    width: 1200px; 
+    background: radial-gradient(50% 70.31% at 50% 0%, rgba(126, 61, 255, 0.24) 0%, rgba(126, 61, 255, 0) 100%), #0B011D;
+    border: 1px solid white;
+    border-radius: 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2-block1{
+    font-size: 23px;
+    padding-bottom:20px;
+}
+
+.sec2-button button{
+    padding: 15px 30px 15px 30px ;
+    font-size: 14px;
+    border-radius: 25px;
+    margin: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    animation: moveUp 1.5s ease-in-out forwards;
+    
+}
+
+.sec2-button button:hover{
+    background-color: #6333c2;
+    border: white;
+    color:white;
+}
+
+
+
+/* ------------------------------------------ sec2 Styling End -------------------------------------- */
+
+
+/* ---------------------------------------------sec3 styling start -------------------------------------- */
+
+.sec3{
+    height: 180px;
+    width: auto;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    /* background-color: aqua; */
+
+}
+
+.sec3 hr{
+    height: 0.5px;
+    border: none;
+    background: linear-gradient(to right, #4a4949, #2c2b2b);
+    width: 75%;
+    margin: 20px auto;  
+}
+
+/* -------------------------------------------------- sec3 styling end------------------------------------------------ */
+
+
+/* -------------------------------------------------- footer styling start -------------------------------------------- */
+
+.sec-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.sec-footer i{
+    font-size: 20px;
+    color:#482391;
+    padding-top: 15px;
+}
+
+/* ------------------------------------------- footer styling end -------------------------------------------- */

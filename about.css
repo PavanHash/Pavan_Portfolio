@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: "Faculty Glyphic", serif;
+}
+
+header{
+    color: rgb(27, 25, 25);
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        color: rgb(255, 255, 255);
+        /* background: radial-gradient(50% 70.31% at 50% 100%, rgba(126, 61, 255, 0.24) 0%, rgba(126, 61, 255, 0) 100%), #0B011D; */
+        z-index: 0;
+        background-color: black;
+    
+    }   
+    
+    .nav-logo{
+    padding-left: 50px;
+    margin-top: 28px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: "Yellowtail", serif;
+  font-weight: 400;
+  font-style: normal;
+    
+    }
+    
+    .nav-bar ul{
+        display: flex;
+        gap: 70px;
+        padding-right: 80px;
+        list-style-type: none;
+        margin-top: 28px;
+    }
+    
+    .nav-logo .logo{
+        font-family: "Lavishly Yours", serif;
+        font-weight: 400;
+        font-style: normal;  
+    }
+
+    .nav-bar ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size:17px ;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+       
+    }
+
+
+    .nav-bar ul li a:hover{
+        color: #a880f9;
+
+    }
+
+   
+
+
+
+    /* ----------------------------header styling end----------------------- */
+
+    .sec1{
+        height: 30vh;
+        width: auto;
+        /* background: radial-gradient(50% 70.31% at 50% 0%, rgba(126, 61, 255, 0.24) 0%, rgba(126, 61, 255, 0) 100%), #0B011D; */
+       /* background-color: aqua; */
+        z-index: -1;  
+        background-color: black; 
+    }
+
+    .sec1-block1{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        align-content: center;
+        flex-direction: column;
+    }
+
+    
+@keyframes moveUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+  
+    .sec1-block1 h2{
+        /* padding-top: 150px; */
+        font-size: 20px;
+        align-items: center;
+        align-content: center;
+        font-size: 38px;
+        color: white;
+        padding-left: 178px;
+        /* background-image: linear-gradient(182.69deg, rgb(216, 216, 236) 0%, rgb(128, 137, 176) 100%); */
+
+        font-family: "Faculty Glyphic", serif;
+        font-weight: 600;
+        font-style: normal;
+
+        animation: moveUp 2s ease-in-out forwards;
+    }
+
+    .hei{
+        padding-top: 100px;
+    }
+    .hei1{
+        padding-top: 15px;
+    }
+
+    /* ----------------------- sec2 styling Start -----------------------  */
+
+    .sec2{
+        min-height: 100vh;
+        width: auto;
+        background-color: black;
+        /* background-color: aqua; */
+        display: flex;
+        /* justify-content: center;
+       
+        align-items: center;  */
+        flex-direction: column;
+    }
+
+    .sec2-block1{
+        min-height: 100vh;
+        width: 59vw;
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
+        /* overflow: auto; */
+    }
+
+    .sec2-block1-box{
+        height: 50rem;
+        width: 35rem;
+        /* background:  #190a36; */
+        overflow: hidden;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+
+    }
+
+    .sec2-block1-box p{
+        color: white;
+        /* color:  #8051dd; */
+        font-size: 17px;
+        /* padding: 25px 0 0 11rem; */
+        font-weight: 500;
+        text-decoration: none;
+
+        animation: moveUp 2s ease-in-out forwards;
+    }
+
+    .sec2-block1-box a{
+        text-decoration: none;
+    }
+
+     .sec2-block1-box2{
+        color: white;
+       
+     }
+
+        .sec2 .sec2-block1-box2 .sign{
+        
+            font-family: "Lavishly Yours", serif;
+            font-size: 35px;
+            align-items: center;
+            display: flex;
+              justify-content: end;
+              padding-right: 50px;  
+              animation: moveUp 2s ease-in-out forwards;
+              
+         }
+
+         .sec2 .sec2-block1-box2 .sign1{
+            font-family: "Lavishly Yours", serif;
+            /* font-size: 35px; */
+            align-items: center;
+            display: flex;
+              justify-content: end;
+            font-size: 23px;
+            /* padding-right: 50px;   */
+           
+         }
+
+
+       /* height: 20rem;
+
+        width: 30rem;
+        background-color: #000000;
+        display: flex;  */
+     
+
+
+     /* ----------------------- sec 3 footer Styling Start -----------------------  */
+
+     .sec3{
+        width: auto;
+        height: 50vh;
+        color: white;
+        /* background-color:aqua; */
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        /* justify-content: end; */
+        padding-right: 200px;
+     }
+
+
+     .sec3-block1 p{
+        font-size: 17px;
+     }
+
+     .sec3-block1 a{
+        text-decoration: none;
+        color: white;
+     }
+    
+
+     .sec3-block1  a:hover{
+        color: #a880f9;
+
+    }
+
+
+
+     
+     /* ----------------------- sec 3 footer Styling Start -----------------------  */
+
+
+
+    .sec4{
+        height: 180px;
+        width: auto;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        /* background-color: aqua; */
+    
+    }
+    
+    .sec4 hr{
+        height: 0.5px;
+        border: none;
+        background: linear-gradient(to right, #4a4949, #2c2b2b);
+        width: 75%;
+        margin: 20px auto;  
+    }
+
+    .sec-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        /* background-color: #0B011D; */
+    }
+    
+    .sec-footer i{
+        font-size: 20px;
+        color:#482391;
+        padding-top: 15px;
+    }
+    
+     /* ----------------------- sec 3 footer Styling End -----------------------  */
